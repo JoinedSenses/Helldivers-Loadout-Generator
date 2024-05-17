@@ -44,14 +44,12 @@ namespace HelldiversLoadoutGenerator
                 else if (input == "quit")
                 {
                     Environment.Exit(0);
-                    break; // Not needed but VS complains
                 }
                 else
                 {
                     Console.WriteLine(
                         $"Unknown input: {input}\n"
                     );
-                    break;
                 }
             }
         }
