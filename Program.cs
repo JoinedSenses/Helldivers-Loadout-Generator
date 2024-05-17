@@ -81,16 +81,16 @@ namespace HelldiversLoadoutGenerator
 
         private static void GenerateCharacter()
         {
-            int idx = Rand.Next(0, Constants.Armors.Length);
+            int idx = Rand.Next(0, Constants.Armors.Count);
             string armor = Constants.Armors[idx];
 
-            idx = Rand.Next(0, Constants.Primaries.Length);
+            idx = Rand.Next(0, Constants.Primaries.Count);
             string primary = Constants.Primaries[idx];
 
-            idx = Rand.Next(0, Constants.Secondaries.Length);
+            idx = Rand.Next(0, Constants.Secondaries.Count);
             string secondary = Constants.Secondaries[idx];
 
-            idx = Rand.Next(0, Constants.Grenades.Length);
+            idx = Rand.Next(0, Constants.Grenades.Count);
             string grenade = Constants.Grenades[idx];
 
             Console.WriteLine(
